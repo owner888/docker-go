@@ -1,6 +1,6 @@
 FROM golang:latest
 
-WORKER /app
+WORKDIR /app
 
 COPY ./ /app
 
